@@ -1,0 +1,149 @@
+header{
+    background: rgba(75, 46, 14, 0.87);
+    padding: 12px 0;
+}
+/*Estialização do corpo da Página*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma','Arial';
+    background: rgba(0, 0, 0, 0.87);
+
+}
+/*Estilização da Sessão Header da página */
+header .logo_caixa{
+    /*
+    background: rgba(151, 26, 26, 0.87);
+    */
+    background: rgba(172, 100, 17, 0.87);
+    padding: 15px 20px 15px; /* Configura a Marge da página
+  */  
+}
+.logo_caixa img{
+        background: rgba(75, 46, 14, 0.87);
+        margin-left: 5%;
+        border-radius: 10%;
+}
+        /*   background: rgba(252, 181, 99, 0.87);*
+}
+/*Estilização da sessão NAV(Navegação) da página*/
+nav{
+    background: rgba(179, 116, 45, 0.87);
+    position: absolute;
+    padding: 0 150px;
+    border-radius: 40px;
+    top: 45%; /* Espaçamento de cima da margem, sem que altere o tamanho do container */
+    right: 15%; /* espçamento direito do container */
+}
+nav li{
+    display: inline;
+    margin: 20 10 10 300px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #03162a;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{/* Quando passa o mouse pelo botão*/
+    color: #490606;
+    text-decoration: underline;
+}
+/* Estilização das Listas da páginas */
+ul{/* retira pontos dos marcadores */
+    list-style: none;
+    margin: 20 20 20 200px;
+}
+/*Estilização do logotipo */
+.logo_caixa{
+    position:sticky;
+    width: 1700px;
+    margin: auto;
+}
+.banner{
+    margin-top: 2%;
+    width:90%;
+    margin-left: 5%;
+    height: 60%;
+}
+.logo{
+    margin-left: 20%;
+    width: 50%;
+}
+main img{
+    background: rgba(75, 46, 14, 0.87);
+    margin-left: 10%;
+    border-radius: 10%;
+    /*   background: rgba(252, 181, 99, 0.87);*/
+}
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    background-color: rgb(182, 171, 75);
+    text-align: center;
+    color:#803900;
+    margin-top:3%;
+    border-radius: 15%;
+}
+.titulo-principal{
+    margin: 0 0 0 0;
+    padding-left: 40%;
+    clear: left;
+}
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.principal h1{
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+}
+
+.casa{
+    width: 30%;
+    height: 20%;
+    float: left;
+    margin: 0 0 0 0;
+}
+/* CSS com classes e elementos
+        div.logo_caixa*/
+
+.Local{
+    text-decoration: underline;
+    background:radial-gradient(GREY,rgb(10, 10, 101),rgb(58, 7, 7));
+    border-color: wheat;
+    border-style: groove;
+    color:#19c1c4;
+    font-size: 20px;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    margin-top: 4%;
+}
+.Banner{
+    width:100%;
+    background-color: rgb(17, 17, 112);
+}
+.copyright{
+    color:#ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.desc_Copy{
+    font-size:20px;
+    font-family: arial;
+    text-align: left;
+    color: #ffff;
+}
