@@ -82,19 +82,25 @@ main img{
 }
 .principal{
     width: 940px;
-    margin: 0 auto;
-    padding: 3em 0;
     background-color: rgb(182, 171, 75);
     text-align: center;
     color:#803900;
-    margin-top:3%;
     border-radius: 15%;
+    margin-left: 18em;
+    margin-top: 40px;
+    padding: 4em 0;
 }
-.titulo-principal{
-    margin: 0 0 0 0;
-    padding-left: 40%;
-    clear: left;
+.tit_principal{
+    width: 200px;
+    margin: 0 10px;
+    padding: 0em 19em;
+    text-align: center;
+    font-size: 20px;
 }
+.image_banner{
+    margin-bottom:12em;
+}
+
 .principal strong{
     font-weight: bold;
 }
@@ -107,13 +113,17 @@ main img{
     font-weight: bold;
     font-size: 20px;
     color:black;
+    margin: 0 0 0 250px;
+    margin-top: 40px;
+    width: 400px;
+    background-color: blue;
 }
 
 .casa{
-    width: 30%;
-    height: 20%;
-    float: left;
-    margin: 0 0 0 0;
+    width: 40%;
+    height: 40%;
+    margin: 0 0 10px 5px;
+    
 }
 /* CSS com classes e elementos
         div.logo_caixa*/
@@ -133,17 +143,20 @@ main img{
 .Banner{
     width:100%;
     background-color: rgb(17, 17, 112);
+    height: 90%;
 }
 .copyright{
     color:#ffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .desc_Copy{
     font-size:20px;
     font-family: arial;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
     color: #ffff;
 }
