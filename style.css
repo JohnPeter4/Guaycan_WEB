@@ -162,3 +162,28 @@ main img{
     padding-bottom: 20px;
     color: #ffff;
 }
+.Barras_prod{
+    margin-top: 8%;
+}
+.list-prod{
+    margin-top: -20%;
+    opacity: 0.4;
+    padding-bottom: -20%;
+}
+.Barras_prod :hover{
+    opacity: 1.4;
+}
+.txt{
+    color: rgb(148, 121, 0);
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    text-decoration:underline overline;
+}
+#Data{
+    font-size:20px;
+    margin-right: 38%;
+    background-color: #803900;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
